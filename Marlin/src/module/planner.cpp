@@ -3183,6 +3183,20 @@ void Planner::set_position_mm(const xyze_pos_t &xyze) {
     set_machine_position_mm(machine);
   #endif
 }
+/*
+void set_position_mm(const float& a, const float& b, const float& c, const float& e) {
+  // Custom origin shift to place (0,0,0) at front-left deck surface
+  const float offset_x = -376.0;  // 442.8 - 66.8
+  const float offset_y = +215.0;  // -214.6 - 0.4
+  const float offset_z = -222.0;  // 223.0 - 1.0
+
+  current_position[X_AXIS] = a + offset_x;
+  current_position[Y_AXIS] = b + offset_y;
+  current_position[Z_AXIS] = c + offset_z;
+  current_position[E_AXIS] = e;
+
+  sync_plan_position();
+} */
 
 #if HAS_EXTRUDERS
 

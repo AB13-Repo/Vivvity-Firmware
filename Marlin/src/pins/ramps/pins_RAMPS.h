@@ -231,7 +231,7 @@
   #elif EITHER(FET_ORDER_EEF, FET_ORDER_SF)       // Hotend, Hotend, Fan or Spindle, Fan
     #define FAN_PIN                 MOSFET_C_PIN
   #elif FET_ORDER_EEB                             // Hotend, Hotend, Bed
-    #define FAN_PIN                            4  // IO pin. Buffer needed
+    //#define FAN_PIN                            9  // IO pin. Buffer needed
   #else                                           // Non-specific are "EFB" (i.e., "EFBF" or "EFBE")
     #define FAN_PIN                 MOSFET_B_PIN
   #endif
