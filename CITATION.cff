@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this firmware, please cite it using the metadata in this file."
+type: software
+title: Mycexus Marlin Firmware
+version: 1.0.0
+authors:
+  - family-names: Babre
+    given-names: Avinash
+url: "https://github.com/AB13-Repo/Vivvity-Firmware"
+license: GPL-3.0-or-later
