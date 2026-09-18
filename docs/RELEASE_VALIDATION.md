@@ -40,4 +40,13 @@ Observed warnings:
 
 ## Secret Scan
 
-Secret scan status is recorded during final pre-push validation.
+Status:
+PASS
+
+`gitleaks` was not available on PATH in the local environment. Manual scans were
+run for GitHub tokens, API keys, private keys, passwords, Wi-Fi credentials,
+private URLs, COM-port literals, and local user paths.
+
+No project credentials, private keys, or passwords were found. The scan reported
+some inherited upstream Marlin source comments/assets containing example local
+paths and Wi-Fi UI symbol names; these are not project credentials.
