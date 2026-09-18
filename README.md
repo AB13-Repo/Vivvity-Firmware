@@ -1,4 +1,4 @@
-# Mycexus Marlin Firmware
+# Vivvity - Marlin Firmware
 
 Custom Marlin 2.0.9.7-based firmware configured for a research
 laboratory automation platform.
