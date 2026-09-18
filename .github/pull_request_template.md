@@ -1,33 +1,23 @@
-<!--
+## Summary
 
-Submitting a Pull Request
+Describe the project-specific firmware change.
 
-- Please fill out all sections of this form. You can delete the helpful comments.
-- Pull Requests without clear information will take longer and may even be rejected.
-- We get a high volume of submissions so please be patient during review.
+## Firmware Areas
 
--->
+- [ ] Configuration
+- [ ] Motion
+- [ ] Homing / endstops
+- [ ] Thermal control
+- [ ] Pins / auxiliary I/O
+- [ ] Build / CI
+- [ ] Documentation only
 
-### Description
+## Validation
 
-<!--
+- [ ] `pio run -e mega2560`
+- [ ] Relevant hardware behavior reviewed
+- [ ] Upstream diff reviewed
 
-Clearly describe the submitted changes with lots of details. Include images where helpful. Initial reviewers may not be familiar with the subject, so be as thorough as possible. You can use MarkDown syntax to improve readability with bullet lists, code blocks, and so on. PREVIEW and fix up formatting before submitting.
+## Notes
 
--->
-
-### Requirements
-
-<!-- Does this PR require a specific board, LCD, etc.? -->
-
-### Benefits
-
-<!-- What does this PR fix or improve? -->
-
-### Configurations
-
-<!-- Attach Configurations ZIP and any other files needed to test this PR. -->
-
-### Related Issues
-
-<!-- Does this PR fix a bug or fulfill a Feature Request? Link related Issues here. -->
+List any configuration items that need owner review before release.
